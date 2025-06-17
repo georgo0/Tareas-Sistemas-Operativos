@@ -3,52 +3,64 @@ Subir avances y trabajo final de S.O
 ---
 
 # Tarea 3
-* Listados de los comandos definidos para usar en la terminal una vez que de compile el programa:
+Listados de los comandos definidos para usar en la terminal una vez que de compile el programa:
+
+* Crear un nuevo archivo
 ```bash
-createFile <nombre>     # Crear un nuevo archivo
+createFile <nombre>     
+```
+* Crear un nuevo directorio
+```bash
+createDirectory <nombre>
 ```
 
+* Renombrar un archivo o directorio
 ```bash
-createDirectory <nombre> # Crear un nuevo directorio
+rename <antiguo> <nuevo> 
 ```
 
+* Eliminar un archivo o directorio
 ```bash
-rename <antiguo> <nuevo> # Renombrar un archivo o directorio
+delete <nombre>         
 ```
 
+* Cambiar permisos de un archivo o directorio
 ```bash
-delete <nombre>         # Eliminar un archivo o directorio
+chmod <nombre> <permisos> 
 ```
 
+* Listar archivos en el directorio actual
 ```bash
-chmod <nombre> <permisos> # Cambiar permisos de un archivo o directorio
+ls                      
 ```
 
+* Listar archivos recursivamente
 ```bash
-ls                      # Listar archivos en el directorio actual
+ls -R                  
 ```
 
+* Buscar un archivo por nombre
 ```bash
-ls -R                   # Listar archivos recursivamente
+find <nombre>           
 ```
 
+* Cambiar de directorio
 ```bash
-find <nombre>           # Buscar un archivo por nombre
+cd <nombre>             
 ```
 
+* Ir al directorio padre
 ```bash
-cd <nombre>             # Cambiar de directorio
+cd..                    
 ```
 
+* Salir del programa
 ```bash
-cd..                    # Ir al directorio padre
+exit                    
 ```
 
+* Mostrar comandos disponibles
 ```bash
-exit                    # Salir del programa
-```
-
-```bash
-help                    # Mostrar comandos disponibles
+help                    
 ```
 
