@@ -2,8 +2,8 @@
 Subir avances y trabajo final de S.O
 ---
 
-#Tarea 3
-*Listados de los comandos definidos para usar en la terminal una vez que de compile el programa:
+# Tarea 3
+* Listados de los comandos definidos para usar en la terminal una vez que de compile el programa:
 ```bash
 createFile <nombre>     # Crear un nuevo archivo
 ```
